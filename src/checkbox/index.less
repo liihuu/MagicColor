@@ -1,0 +1,21 @@
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 16px;
+  fill: var(--text-color);
+  cursor: pointer;
+  margin-left: 16px;
+  &:first-child {
+    margin-left: 0;
+  }
+  &-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    &.checked {
+      fill: var(--primary);
+    }
+  }
+}
